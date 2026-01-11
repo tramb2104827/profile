@@ -1,0 +1,17 @@
+.animated-counter {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  display: inline-block;
+}
+
+.counter-number {
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .animated-counter {
+    font-size: 2rem;
+  }
+}
+

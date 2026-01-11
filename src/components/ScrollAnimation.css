@@ -1,0 +1,26 @@
+.scroll-animation {
+  opacity: 0;
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.scroll-animation.fadeInUp {
+  transform: translateY(30px);
+}
+
+.scroll-animation.fadeInLeft {
+  transform: translateX(-30px);
+}
+
+.scroll-animation.fadeInRight {
+  transform: translateX(30px);
+}
+
+.scroll-animation.scaleIn {
+  transform: scale(0.9);
+}
+
+.scroll-animation.visible {
+  opacity: 1;
+  transform: translateY(0) translateX(0) scale(1);
+}
+
