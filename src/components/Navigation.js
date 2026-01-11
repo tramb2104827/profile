@@ -28,7 +28,7 @@ const Navigation = ({ activeSection }) => {
     <nav className="navbar">
       <div className="nav-container">
         <div className="nav-logo" onClick={() => scrollToSection('home')}>
-          <span>BÍCH TRÂM</span>
+          <span>BICH TRAM</span>
         </div>
         <div className={`nav-menu ${menuOpen ? 'active' : ''}`}>
           {navItems.map((item) => (
